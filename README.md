@@ -1,2 +1,2 @@
-# ai-reinforcement-learning
-AI  Reinforcement Learning
+# ai-deep-reinforcement-learning
+AI Deep Reinforcement Learning
