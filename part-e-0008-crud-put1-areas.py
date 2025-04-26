@@ -15,11 +15,11 @@ UNITS = [
 async def company_units():
     return UNITS
 
-# update a department by id num 
+# update a department
 
 @app.put("/update-department")
 async def update_a_dep(updated_dep = Body()):
-    for i in range(UNITS.length):
+    for i in range(len(UNITS)):
         if UNITS[i]["id"].casefold() == updated_dep["id"].casefold():
             UNITS[i] = updated_dep
 
