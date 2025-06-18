@@ -1,6 +1,6 @@
 import torch
 
-# profit = 2 * sales - 300
+# profit = 2 * sales - 30000
 
 # y = 2 * X - 30_000
 
